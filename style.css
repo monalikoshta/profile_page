@@ -76,7 +76,8 @@ header{
 }
 
 .box:hover{
-    background-color: white;
+    background-color: indigo;
+    color: lavender;
 }
 
 .row h2{
