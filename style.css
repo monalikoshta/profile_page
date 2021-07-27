@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: Indigo;
+    color: #e6e6fa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 97.6%;
+    padding: 15px;
+}
+nav ul{
+    width: 60%;
+    align-self: center;
+    text-align: right;
+    margin-right: 40px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: lavender;
+    padding: 15px 20px;
+    font-size: 17px;
+}
+
+a:hover{
+    background-color: lavender;
+    color: indigo;
+    border-radius: 5px;
+}
+
+.title{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    width: 30%;
+    align-self: center;
+    text-align: left;
+    margin-left: 40px;
+}
+
+header{
+    background-image: url("img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: indigo;
+    vertical-align: center;
+    padding: 150px;
+}
+
+.name{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #c1a8ea78;
+    color: indigo;
+    padding: 60px 0px;
+}
+
+.box{
+    box-shadow: 5px 5px 8px 7px #C3C3C3;
+    width: 40%;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.box:hover{
+    background-color: white;
+}
+
+.row h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+}
+
+.about{
+    background-color: white;
+    padding: 60px;
+    color: indigo;
+}
+
+.about h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+}
+
+
+#msg {
+    padding: 60px;
+    color: indigo;
+}
+
+#msg h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+}
+
+#inp{
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+}
+
+#button{
+    background-color: indigo;
+    color: lavender;
+    padding: 10px 20px;
+    border: 2px solid indigo;
+    border-radius: 5px;
+}
+
+#button:hover{
+    box-shadow: 5px 5px 8px 7px #C3C3C3;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    background-color: #c1a8ea78;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+/* .line{
+    margin: 40px auto;
+    color: lavender;
+    width: 100%;
+    border-bottom: 2px solid lavender;
+} */
+
+.foot{
+    color: lavender;
+    background-color: indigo;
+    padding: 100px;
+}
